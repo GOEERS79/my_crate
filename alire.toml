@@ -1,6 +1,6 @@
 name = "my_crate"
 description = "my Crate"
-version = "0.1.0-dev"
+version = "1.1.0"
 
 authors = ["Your Name"]
 maintainers = ["Your Name <example@example.com>"]
