@@ -1,0 +1,18 @@
+name = "myapp2"
+description = ""
+version = "0.1.0-dev"
+
+authors = ["Your Name"]
+maintainers = ["Your Name <example@example.com>"]
+licenses = "MIT OR Apache-2.0 WITH LLVM-exception"
+website = ""
+tags = []
+
+# Declare the dependency (version can be "*" because it will be pinned)
+[[depends-on]]
+libmy_crate = "*"
+
+# Pin the dependency to a local path (this is the key part)
+[[pins]]
+libmy_crate = { path = "../libmy_crate" }
+

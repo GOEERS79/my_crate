@@ -1,9 +1,16 @@
-name = "my_crate"
+name = "libmy_crate"
 description = "my Crate"
-version = "1.1.0"
+version = "2.1.0"
 
 authors = ["Your Name"]
 maintainers = ["Your Name <example@example.com>"]
 licenses = "MIT OR Apache-2.0 WITH LLVM-exception"
 website = ""
 tags = []
+
+
+
+
+
+
+
