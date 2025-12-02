@@ -1,5 +1,8 @@
 with Ada.Text_IO;
 --  with Ada.Integer_Text_IO; use Ada.Integer_Text_IO;
+with AUnit.Test_Suites;
+with AUnit.Assertions;
+-- with AUnit.Assertions.Assert;
 with Libmy_Crate;
 procedure Myapp2 is
    --  Array of integers
@@ -15,4 +18,5 @@ begin
       Ada.Text_IO.Put_Line ("  A(" & I'Image & ") = " & A(I)'Image(2..A(I)'Image'Length));
    end loop;
    Libmy_Crate.Joe;
+   AUnit.Assertions.Assert (Libmy_Crate.Add(0, 0) = 0, "Add failed for zero");	
 end Myapp2;

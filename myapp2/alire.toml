@@ -11,6 +11,7 @@ tags = []
 # Declare the dependency (version can be "*" because it will be pinned)
 [[depends-on]]
 libmy_crate = "*"
+aunit = "*"
 
 # Pin the dependency to a local path (this is the key part)
 [[pins]]
